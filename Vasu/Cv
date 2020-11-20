@@ -1,0 +1,49 @@
+package org.firstinspires.ftc.teamcode;
+
+import com.qualcomm.robotcore.eventloop.opmode.Autonomous;
+import com.qualcomm.robotcore.hardware.DcMotor;
+
+public class If_Else {
+
+    private DcMotor bl = null;
+    private DcMotor br = null;
+    private DcMotor fl = null;
+    private DcMotor fr = null;
+
+    int sc1= 1;
+
+    public DcMotor getBl() {
+        return bl;
+    }
+
+    int sc2=2;
+
+    public DcMotor getBr() {
+        return br;
+    }
+
+    int sc3=3;
+
+    public DcMotor getFl() {
+        return fl;
+    }
+
+    int sc4=4;
+
+    public DcMotor getFr() {
+        return fr;
+    }
+
+    if sc2 {
+
+        public int getSc2 ()
+            return sc2;
+
+    }
+    else sc3 {
+
+        public int getsc2(
+                return sc2;
+                )
+    }
+}
